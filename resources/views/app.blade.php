@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        <!-- Favicon -->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png" />
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png" />
@@ -31,6 +32,12 @@
         <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
+        <!-- OG Meta -->
+        <meta property="og:title" content="Sky Defence">
+        <meta property="og:description" content="Инновационные системы защиты для безопасности и развития. От антидроновых комплексов до собственных цифровых решений.">
+        <meta property="og:image" content="/img/og-meta.png">
+        <meta property="og:url" content="https://sky-defence.thequark.dev/">
+        <meta property="og:type" content="website">
 
         <!-- Scripts -->
         @routes
