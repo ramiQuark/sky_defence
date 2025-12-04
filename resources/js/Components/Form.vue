@@ -13,7 +13,7 @@
             <input class="input" type="text" placeholder="Имя">
             <input class="input" type="tel" placeholder="Телефон">
             <input class="input" type="email" placeholder="Электронная почта">
-            <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Ваши пожелания или вопросы"></textarea>
+            <textarea class="input" name="" id="" cols="30" rows="5" placeholder="Ваши пожелания или вопросы"></textarea>
             <label class="policy" for="policy">
                 <input class="checkbox" type="checkbox" name="" id="policy">
                 <p>

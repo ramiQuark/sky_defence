@@ -7,6 +7,10 @@
 
 
 //--------- COMPONENTS ---------//
+html {
+    @apply scroll-smooth;
+}
+
 body {
     @apply overflow-x-hidden font-primary text-white bg-primary max-w-[1440px] mx-auto text-base xl:text-lg;
 }
@@ -117,7 +121,7 @@ input[type="checkbox"], input[type="checkbox"]:focus, input[type="checkbox"]:che
 }
 
 .input {
-    @apply appearance-none relative bg-accent4 bg-opacity-25 border-white border-opacity-40 outline-none rounded;
+    @apply px-3.5 py-3 appearance-none relative bg-accent4 bg-opacity-25 border-white border-opacity-40 outline-none rounded;
     &:focus {
         @apply border-accent2 transition-all duration-200 ease-linear;
     }
